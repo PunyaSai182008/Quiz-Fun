@@ -762,8 +762,14 @@ function lastPage() {
         rightAnswer.hide();
     }
 
+    push();
     fill("white");
     text("Results: " + user +" You Scored "  + score, 500, 331);
+    pop();
+
+    fill("Yellow")
+    text("Yay!! You Have Completed The Quiz",488,500);
+    
 
     
 
